@@ -58,11 +58,7 @@ class ValuadoraController extends Controller
 
         return $calculo;
     }
-
-    public function getTextPDF(){
-
-    }
-
+    
 
     public function getFactorAcabados($solicitud2){
         if ($solicitud2[0]->acabados == 'Muy mala') {
